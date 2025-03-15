@@ -1,0 +1,7 @@
+rm -rf .git  # WARNING: This deletes Git history (use only if necessary)
+git init
+git add .
+git commit -m "Reinitialize repository"
+git branch -M main
+git remote add origin https://github.com/Shivrajjjjj/flask-backend.git
+git push -u origin main
