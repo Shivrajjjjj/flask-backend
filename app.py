@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))  # Add project root to path
+
 from backend import create_app, db
 
 app = create_app()
